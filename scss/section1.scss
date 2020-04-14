@@ -1,0 +1,45 @@
+@media screen and(max-width :500px ){
+    .section1-item{
+        height: 170px;
+        img{
+            height: 100% !important;
+        }
+    }
+}
+#section1{
+    margin: 20px 20px;
+    padding: 0 !important;
+    .row{
+        .section1-item{
+            border-radius: $radius;
+            position: relative;
+            margin-top: 1rem !important;
+            img{
+                width: 100%;
+                border-radius: $radius;
+                height: 220px;
+                z-index: 0;
+            }
+            .section1-img-overlay{
+                position: absolute;
+                width: calc(100% - 30px);
+                height: 100%;
+                bottom: 0;
+                right: 0;
+                background-image: linear-gradient(to top, rgba(0,0,0,.9) 10%, rgba(255,255,255,0) 40%); /* Standard syntax (must be last) */
+                z-index: 1;
+                border-radius: $radius;
+                margin-right: 15px;
+            }
+            span{
+                display: inline-block;
+                position: absolute;
+                bottom: 30px;
+                right: 40px;
+                color: #fff;
+                z-index: 2;
+                font-size: $primary-font-size;
+            }
+        }
+    }
+}

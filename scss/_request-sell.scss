@@ -1,0 +1,556 @@
+
+@media screen and ( max-width : 450px ){
+    .request-sell-header{
+        font-size: 16px !important;
+    }
+    .form-row{
+        justify-content: space-between !important;
+        margin: 0 !important;
+
+        #request-sell-address{
+            width: 100% !important;
+        }
+        #request-sell-pelak{
+            width: 138px !important;
+            margin-left: 0 !important;
+        }
+        .request-sell-age{
+            width: 138px !important;
+            margin-left: 0 !important;
+        }
+        #request-sell-metr{
+            width: 138px !important;
+            margin-left: 0 !important;
+        }
+        .w-100{
+            width: 100% !important;
+        }
+        .request-sell-rent{
+            margin-left: 0 !important;
+        }
+    }
+}
+#request-sell{
+    margin: 40px auto!important;
+    margin-top: 140px !important;
+    width: auto;
+    max-width: 1250px;
+    position: relative;
+    .request-sell-header{
+        display: block;
+        width: 100%;
+        background-color: #fff;
+        margin-bottom: 0;
+        padding: 25px 0;
+        text-align: center;
+        font-size: 18px;
+        color: $font-dark;
+    }
+    .request-sell-timeline{
+        width: 700px;
+        margin: 0 auto;
+        margin-top: 20px;
+        font-weight: bold;
+        padding: 0 5px;
+        font-size: $primary-font-size;
+    }
+    .request-sell-timeline-text{
+        width: 600px;
+        display: flex;
+        justify-content: space-between !important;
+        margin: 0 auto;
+        .request-sell-timeline-text-active{
+            color: $primary-red;
+        }
+        .request-sell-timeline-text-done::after{
+            background-color: #e77478;
+        }
+        span{
+            position: relative;
+        }
+        span::after{
+            content: '';
+            width: 20px;
+            height: 20px;
+            position: absolute;
+            bottom: -32px;
+            left: 40%;
+            background-color: #d6d6d6;
+            border-radius: 6px;
+        }
+        .request-sell-timeline-text-active::after{
+    
+            background-color: #fff;
+            border: 3px solid  #e77478;
+        }
+    }
+    .request-sell-timeline-border{
+        width: 510px;
+        margin: 0 auto;
+        margin-top: 12px;
+       div{
+           width: 49.3%;
+           display: inline-block;
+        border-bottom: 4px solid #d6d6d6;
+        margin: 0 !important;
+        padding: 0 !important;
+        
+       }
+       .active{
+        border-bottom: 4px solid #e77478 !important;
+    }
+    }
+    @media screen and (max-width :700px ){
+        .request-sell{
+            width: 110% !important;
+            margin-left: 0 !important;
+            padding-left: 0 !important;
+        }
+        .request-sell-timeline{
+            width: 400px;
+            
+        }
+        .request-sell-timeline-text{
+            width: 400px;
+        }
+        .request-sell-timeline-border{
+            width: 310px;
+        }
+        .request-sell-form{
+            .form-step1{
+                width: 100% !important;
+            }
+            .form-step2{
+                width: 100% !important;
+            }
+            .form-step3{
+                width: 100% !important;
+            }
+        }
+    }
+    @media screen and (max-width :420px ){
+        .request-sell-timeline{
+            width: 300px;
+            font-size: 11px;
+        }
+        .request-sell-timeline-text{
+            width: 300px;
+        }
+        .request-sell-timeline-border{
+            width: 225px;
+            margin-top: 13px;
+        }
+    }
+    .request-buy-1-form-btn{
+        margin-top: 10px;
+        display: inline-block;
+        width: 100%;
+        background-color: $primary-red;
+        text-align: center;
+        color: #fff;
+        border-radius: $radius;
+        padding: 12px 0;
+        transition: all ease .2s;
+        &:hover{
+            text-decoration: none;
+            background-color: $secondary-red;
+        }
+    }
+    .request-sell-form{
+        background-color: #fff;
+        margin-top: -9px;
+        padding: 40px 0 ;
+        height: auto;
+        min-height: 400px;
+        .form-step1{
+            display: block;
+            width: 700px;
+            margin: auto;
+            padding: 20px 10px;
+            font-size: 12px;
+            .form-row{
+                width: 100%;
+                display: flex;
+                justify-content: start;
+                align-items: center;
+                label{
+                    font-weight: bold;
+                    color: #333;
+                     margin-top: 20px;
+                }
+                .request-sell-region{
+                    &:hover{
+                        border: 1px solid #ababab !important;
+    
+                     }
+                     transition: all ease .2s;
+                    background-color: #fff ;
+                    border-radius: $radius;
+                    width: 100%;
+                    height: 40px;
+                    border: $border;
+                    color: #8b8b8b;        
+                     position: relative;
+                     outline: none;
+                     font-family: 'IRsans';
+                     font-size: 12px;
+                     margin: 15px 0;
+                     margin-left: 10px ;
+                     .downtoggle-svg{
+                         position: absolute;
+                         width: 25px;
+                         height: 25px;
+                         top: 8px;
+                         left: 8px;
+                         color: #8b8b8b;
+                     }
+                     select{
+                        background-color: #fff ;
+
+                         cursor: pointer;
+                        color: #8b8b8b;
+                        -moz-appearance:none; /* Firefox */
+                        -webkit-appearance:none; /* Safari and Chrome */
+                         appearance:none;
+                         border: none;
+                         display: block;
+                         width: 100%;
+                         height: 100% ;
+                         padding-right: 10px;
+                         position: relative;
+                         outline: none;
+                         border-radius: $radius;
+                         option{
+                             width: 100%;
+                             height:40px;
+                             color: $color666 !important;
+                         }
+                     }
+                }
+            }
+        }
+        .form-step2{
+            display: block;
+            width: 700px;
+            margin: auto;
+            padding: 20px 10px;
+            .form-row{
+                width: 100%;
+                display: flex;
+                justify-content: start;
+                align-items: center;
+                .request-sell-full-width{
+                    &:hover{
+                        border: 1px solid #ababab !important;
+                     }
+                     transition: all ease .2s;
+                    -moz-appearance:none; /* Firefox */
+                        -webkit-appearance:none; /* Safari and Chrome */
+                         appearance:none;
+                        padding: 10px 10px;
+                        border: $border !important;
+                        border-radius: $radius;
+                        color: #8b8b8b;
+                        margin: 15px 0;
+                         width: 100%;
+                         outline: none;
+                         font-size: 12px;
+                }
+                #request-sell-pelak{
+                    &:hover{
+                        border: 1px solid #ababab !important;
+                     }
+                     transition: all ease .2s;
+                    display: inline-block;
+                    width: 162.5px;
+                    height: 40px;
+                    -moz-appearance:none; /* Firefox */
+                        -webkit-appearance:none; /* Safari and Chrome */
+                         appearance:none;
+                        padding: 10px 10px;
+                        border: $border !important;
+                        border-radius: $radius;
+                        color: #8b8b8b;
+                        margin: 15px 0;
+                        margin-left: 10px;
+                         outline: none;
+                         font-size: 12px;
+                }
+                #request-sell-metr{
+                    display: inline-block;
+                    width: 162.5px;
+                    height: 40px;
+                    -moz-appearance:none; /* Firefox */
+                        -webkit-appearance:none; /* Safari and Chrome */
+                         appearance:none;
+                        padding: 10px 10px;
+                        border: $border !important;
+                        border-radius: $radius;
+                        color: #8b8b8b;
+                        margin: 15px 0;
+                        margin-left: 10px;
+                         outline: none;
+                         font-size: 12px;
+                         &:hover{
+                            border: 1px solid #ababab !important;
+                         }
+                         transition: all ease .2s;
+                }
+                .request-sell-age{
+                    border-radius: $radius;
+                    width: 162.5px;
+                    height: 40px;
+                    border: $border;
+                    color: #8b8b8b;        
+                     position: relative;
+                     outline: none;
+                     font-family: 'IRsans';
+                     font-size: 12px;
+                     margin: 15px 0;
+                     margin-left: 10px ;
+                     font-size: 12px;
+                     transition: all ease .2s;
+                     &:hover{
+                         border: #ababab solid 1px;
+                        
+                     }
+                     .downtoggle-svg{
+                         position: absolute;
+                         width: 25px;
+                         height: 25px;
+                         top: 8px;
+                         left: 8px;
+                         color: #8b8b8b;
+                     }
+                     select{
+                        -webkit-user-select: none !important;
+
+                         background-color: #fff;
+                         cursor: pointer;
+                        color: #8b8b8b;
+                        -moz-appearance:none; /* Firefox */
+                        -webkit-appearance:none; /* Safari and Chrome */
+                         appearance:none;
+                         border: none;
+                         display: block;
+                         width: 100%;
+                         height: 100% ;
+                         padding-right: 10px;
+                         position: relative;
+                         outline: none;
+                         border-radius: $radius;
+                         font-size: 12px;
+                         option{
+                             width: 100%;
+                             height:40px;
+                             color: $color666 !important;
+                             font-size: 12px;
+                             &:hover{
+                             }
+                         }
+                     }
+                }
+                .request-sell-rooms{
+                    border-radius: $radius;
+                    width: 162.5px;
+                    height: 40px;
+                    border: $border;
+                    color: #8b8b8b;        
+                     position: relative;
+                     outline: none;
+                     font-family: 'IRsans';
+                     font-size: 12px;
+                     margin-left: 10px;
+                     .downtoggle-svg{
+                         position: absolute;
+                         width: 25px;
+                         height: 25px;
+                         top: 8px;
+                         left: 8px;
+                         color: #8b8b8b;
+                     }
+                     select{
+                        color: #8b8b8b;
+                        -moz-appearance:none; /* Firefox */
+                        -webkit-appearance:none; /* Safari and Chrome */
+                         appearance:none;
+                         border: none;
+                         display: block;
+                         width: 100%;
+                         height: 100% ;
+                         padding-right: 10px;
+                         position: relative;
+                         outline: none;
+                         border-radius: $radius;
+                         font-size: 12px;
+                         option{
+                             width: 100%;
+                             height:40px;
+                             color: $color666 !important;
+                             font-size: 12px;
+                         }
+                     }
+                }
+                .request-sell-rent{
+                    &:hover{
+                        border: 1px solid #ababab !important;
+                     }
+                     transition: all ease .2s;
+                    border-radius: $radius;
+                    width: 335px;
+                    height: 40px;
+                    border: $border;
+                    color: #8b8b8b;        
+                     position: relative;
+                     outline: none;
+                     font-family: 'IRsans';
+                     font-size: 12px;
+                     margin: 15px 0;
+                     margin-left: 10px;
+                     font-size: 12px;
+                     span{
+                         position: absolute;
+                         top: 10px;
+                         left: 10px;
+                         color: $font-dark;
+                         font-weight: bold;
+                     }
+                     input{
+                        color: #8b8b8b;
+                        -moz-appearance:none; /* Firefox */
+                        -webkit-appearance:none; /* Safari and Chrome */
+                         appearance:none;
+                         border: none;
+                         display: block;
+                         width: 100%;
+                         height: 100% ;
+                         padding-right: 10px;
+                         position: relative;
+                         outline: none;
+                         border-radius: $radius;
+                         font-size: 12px;
+                         option{
+                             width: 100%;
+                             height:40px;
+                             color: $color666 !important;
+                         }
+                     }
+                }
+                .add-img-label{
+                    font-weight: bold;
+                    margin-left: 20px;
+                }
+                .div-img-upload{
+                    border: 1px dashed #ababab; border-radius: 8px;
+                    width: 70px;
+                    height: 70px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    cursor: pointer;
+                    img{
+                        width: 32px;
+                        height: 32px;
+                    }
+                }
+                .upload-thumb{
+                    width: 70px;
+                    height: 70px;
+                    position: relative;
+                    margin-bottom: .5rem;
+                    margin-right: 10px ;
+                    img{
+                        width: 70px;
+                        height: 70px;
+                        border-radius: $radius;
+
+                    }
+                    .thumb-close{
+                        width: 20px;
+                        height: 20px;
+                        position: absolute;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        line-height: 18px;
+                        bottom: -10px;
+                        background-color: #fff;
+                        border-radius: 50%;
+                        left: 25px;
+                        font-weight: bold;
+                        color: $color666;
+                        border: $border;
+                    }
+                }
+                .other-op{
+                    font-weight: bold;
+                    display: block;
+                    margin: 15px 0;
+                    width: 100%;
+                }
+                .request-sell-checkboxes{
+                    display: flex;
+                    align-items: center;
+                    margin-bottom: 25px;
+                    flex-wrap: wrap !important;
+                    .checkbox-label{
+                        margin-bottom: 0;
+                        margin-top: 8px;
+                        margin-left: 20px;
+                    }
+                    input[type=checkbox]{
+                        margin-left: 15px;
+                    }
+                    input[type=checkbox]:after {
+                        content: " ";
+                        display: inline-block;
+                        visibility: visible;
+                        width: 20px;
+                        height: 20px;
+                        border-radius: 4px;
+                        background-color: #ddd;
+    
+                      }
+                      
+                      input[type=checkbox]:checked:after {
+                        content: "\2714";
+                        text-align: center;
+                        background-color: $primary-red;
+                        color: #fff;
+
+                      }
+                    .request-sell-checkbox{
+
+                    }
+                }
+            }
+        }
+        .form-step3{
+            display: block;
+            width: 700px;
+            margin: auto;
+            padding: 0 10px;
+            display: block;
+            width: 700px;
+            margin: auto;
+            padding: 0 10px;
+            font-size: 12px !important;
+            input{
+                &:hover{
+                    border: 1px solid #ababab !important;
+
+                 }
+                 transition: all ease .2s;
+                -moz-appearance:none; /* Firefox */
+                -webkit-appearance:none; /* Safari and Chrome */
+                 appearance:none;
+                padding: 10px 10px;
+                border: $border !important;
+                border-radius: $radius;
+                color: #8b8b8b;
+                margin: 15px 0;
+                 width: 100%;
+            }
+        }
+    }
+}

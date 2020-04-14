@@ -1,0 +1,70 @@
+.noads{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    p{
+        font-size: 14px;
+        color: $color666;
+        font-weight: bold;
+        margin-bottom: 25px;
+    }
+    .make-ad{
+        display:flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 232px;
+                    height: 48px;
+                    background-color: $primary-red;
+                    text-align: center;
+                    vertical-align: middle;
+                    color: #fff;
+                    font-size: 12px;
+                    font-weight: bold;
+                    border-radius: $radius;
+                    border: $border;
+                    transition: all ease .2s;
+                    &:hover{
+                        text-decoration: none;
+                        background-color: $secondary-red;
+                    }
+    }
+}
+.myads-page{
+    margin-top: 150px !important;
+    .item-footer{
+        background-color: #efefef !important;
+        .item-footer-right{
+            .ad-info{
+                display: flex;
+                justify-content: flex-start;
+                flex-direction: row;
+                .ad-info-col1{
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: flex-start;
+                    flex-direction: column;
+                    span{
+                        color:#b2b2b2 ;
+                        font-size: 13px;
+                    }
+                   
+                }
+                .ad-info-col2{
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: flex-start;
+                    flex-direction: column;
+                    margin-right: 10px;
+                    span{
+                        color:$color666 ;
+                        font-size: 13px;
+                    }
+                   
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,232 @@
+@media screen and (max-width :850px){
+    .fast-search-items{
+        width: 600px !important;
+        a{
+            .fast-search-item{
+                width: 180px !important;
+                height: 98px !important;
+                margin: 0 5px !important;
+                font-size: 12px !important;
+                img{
+                    width: 24px !important;
+                    height: 24px !important;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width : 625px ){
+    #fast-search-container{
+        height: 293px !important;
+        border-radius: 0 !important;
+        margin:  0 !important;
+        width: 100% !important;
+        .fast-search-row1{
+            padding: 0 !important;
+            .fast-search-menu{
+                flex-direction: column;
+                order: 2;
+                margin-top: 0 !important;
+                .fast-search-menu-title{
+                    margin-top: 40px !important;
+                }
+                .fast-search-menu-btns{
+                    margin-top: 15px !important;
+                }
+            }
+        }
+        .fast-search-header{
+            order: 1;
+            width: 240px !important;
+            height: 62px !important;
+            margin: 0 auto !important;
+            margin-top: 14px !important;
+            svg{
+                width: 240px !important;
+                height: 62px !important;
+            }
+        }
+        }
+    .fast-search-items{
+        width: 320px !important;
+        margin-top: 40px !important;
+        a{
+            .fast-search-item{
+                width: 93px !important;
+                height: 98px !important;
+                margin: 0 5px !important;
+                font-size: 12px !important;
+                img{
+                    width: 24px !important;
+                    height: 24px !important;
+                }
+            }
+        }
+    }
+}
+#fast-search-container{
+    border-radius:0 0 $radius $radius;
+    background-image:url('../img/pic-home-header.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    display: block;
+    margin: 20px 20px;
+    margin-top: 0 !important;
+    margin-bottom: 106px;
+    padding: 0 !important;
+    position: relative;
+    height: 310px;
+    overflow-y: visible !important;
+    width: calc(100% - 40px);
+    .fast-search-row1{
+        display: flex;
+        flex-direction: column;
+        padding: 0 25px;
+
+        .fast-search-menu{
+            width: 100% !important;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 28px;
+
+            .fast-search-menu-title{
+                color: #212121;
+                font-size: 14px;
+                font-weight: bold;
+            }
+            .fast-search-menu-btns{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: row;
+                flex-wrap: wrap;
+                .user-login{
+                    text-decoration: none;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    color: #fff;
+                    background-color: $primary-red;
+                    width: 133px;
+                    height: 36px;
+                    border-radius: 8px;
+                    margin: 0 5px;
+                    border: 1px solid $primary-red;
+                    transition: all ease .2s;
+                    &:hover{
+                    background-color: $secondary-red;
+                    }
+                }
+                .Consultant-login{
+                    text-decoration: none;
+                    display: inline-block;
+                    text-align: center;
+                    vertical-align: middle;
+                    color: $color666;
+                    background-color: #fff;
+                    width: 85px;
+                    padding: 7px 0;
+                    border-radius: 8px;
+                    border:$border;
+                    &:hover{
+                        border:$hvr-border
+                    }
+                }
+                .bookmarks{
+                    color: $primary-red;
+                    font-weight: bold;
+                    height: 36px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin-top: 1px;
+                }
+                .user-name{
+                    font-weight: bold;
+                    color: #212121;
+                    margin-right: 25px;
+                    height: 36px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+                .logOut{
+                    font-weight: bold;
+                    color: #212121;
+                    margin-right: 15px;
+                    height: 36px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                }
+            }
+        }
+         .fast-search-header{
+            display: block;
+            width: 446px;
+            height: 116px;
+            margin: 40px auto;
+            margin-bottom: 20px;
+           svg{
+               width: 446px;
+               height: 116px;
+           }
+        }
+    }
+    .fast-search{
+        display: block;
+        width: auto;
+       
+        .fast-search-items{
+            width: 770px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+           
+           a{
+               text-decoration: none;
+               color:#212121;
+               &:hover{
+                   text-decoration: none;
+               }
+            .fast-search-item{
+                box-shadow: $shadow;
+                transition: all ease .2s;
+                &:hover{
+                    box-shadow: $hvr-shadow;
+                }
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                align-items: center;
+                justify-content: center;
+                background-color: #fff;
+                border-radius: $radius;
+                width: 242px;
+                height: 124px;
+                margin: 0 10px;
+                svg{
+                    width: 30px;
+                    height: 30px;
+                    margin-bottom: 20px;
+                }
+                img{
+                    width: 40px;
+                    height: 40px;
+                    margin-bottom: 20px;
+                }
+                p{
+                    margin: 0;
+                    font-weight: bold;
+                }
+            }
+           }
+        }
+    }
+}
+
+    

@@ -1,0 +1,29 @@
+@import 'config.scss';
+@import 'variables.scss';
+@import 'header.scss';
+@import 'fast-search-container.scss';
+@import 'bestofsell.scss';
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css');
+@import 'section1.scss';
+@import 'footer.scss';
+@import 'request-buy-1.scss';
+@import 'login.scss';
+@import 'signup.scss';
+@import 'magazine.scss';
+@import 'search-result.scss';
+@import 'request-sell.scss';
+@import 'details.scss';
+@import 'index-nav.scss';
+@import 'about.scss';
+@import 'request.scss';
+@import 'myads.scss';
+body{
+    background-color: $primary-gray !important;
+}
+.modal-dialog{
+    width: auto !important;
+    max-width: 1086px !important;
+}
+.modal-header{
+    border: none !important;
+}

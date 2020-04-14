@@ -1,0 +1,297 @@
+@media screen and (max-width : 650px){
+    .mg-post-related{
+        padding:25px 0 !important;
+        .related-items{
+            justify-content: center !important;
+            flex-direction: column;
+        }
+    }
+}
+@media screen and (max-width :400px){
+    .magazine-post-type1-img{
+        height: 150px !important;
+    }
+}
+@media screen and (max-width :576px){
+    .magazine-post-type1-img{
+        height: 150px !important;
+        img{
+            border-radius: $radius !important;
+        }
+    }
+}
+
+
+@media screen and (max-width :768px){
+    .padding-top{
+        padding: 20px 20px !important;
+        padding-top: 150px !important;
+        .owl-dots{
+            text-align: right !important; 
+        }
+        .bestofsell-header{
+            margin-right: 20px;
+        }
+    
+    }
+    .magazine-new-posts{
+        padding: 0 !important;
+        .row{
+            width: 100% !important;
+            margin: 0 !important;
+            .col-12{
+                padding: 0 !important;
+                .mg-posts-container{
+                    padding: 20px 15px;
+                }
+                .magazine-ad{
+                    padding: 0 20px !important;
+                    margin-bottom: 20px;
+                }
+            }
+        }
+    }
+
+    .bestofsell-header{
+        margin-right: 0px !important;
+        font-size: 18px;
+        color: $color666;
+        font-weight: bold;
+    }
+}
+
+.padding-top{
+    padding-top: 150px !important;
+    padding-right: 0;
+    .owl-dots{
+        text-align: right !important; 
+    }
+    .bestofsell-header{
+        margin-right: 20px;
+    }
+
+}
+.magazine-new-posts{
+    padding: 20px 20px ;
+    padding-top: 0 !important;
+    .row{
+        .mg-posts-container{
+            border-radius: $radius;
+            background:#fff;
+            padding: 25px 20px;
+            margin-bottom: 50px;
+            box-shadow: 0 1px 6px 2px rgb(230,230,230);
+           .magazine-section-posts{
+               margin-top: 20px;
+               margin-bottom: 50px;
+            .magazine-new-posts-header{
+                display: flex;
+                justify-content: space-between;
+                width: 100%;
+                span{
+                    color: $color666;
+                    font-size: 16px;
+                }
+                .see-more{
+                    font-size: 12px;
+                    color: $primary-red;
+                    font-weight: bold;
+                    &:hover{
+                        text-decoration: none;
+                    }
+                    img{
+                        width: 24px;
+                        height: 24px;
+                    }
+                }
+                .back-link{
+                    font-size: 12px;
+                    color: $color666;
+                    font-weight: bold;
+                    &:hover{
+                        text-decoration: none;
+                    }
+                }
+            }
+            .magazine-post-type1{
+                overflow: hidden;
+                margin-bottom: 12px;
+                .magazine-post-type1-img{
+                    width: 100%;
+                    height: 170px;
+                    img{
+                        width: 100%;
+                        height: 100%;
+                        border-radius: 0 $radius  $radius 0;
+                    }
+                }
+                .magazine-post-type1-body{
+                    border-bottom: $border;
+                    padding-top: 16px;
+                    width: 100%;
+                    min-height: 100%;
+                    height: auto;
+                    position: relative;
+                    margin-top: 0 !important;
+                    .magazine-post-type1-content-top{
+                        margin-right: 10px;
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        .magazine-post-type1-header{
+                            font-size: 16px;
+                            font-weight: bold;
+                            color: $color666;
+                        }
+                
+                    }
+                    .magazine-post-type1-content{
+                        margin: 16px 10px;
+                        font-size: 14px;
+                        color: $color666;
+                        margin-bottom: 40px;
+                    }
+                    .magazine-post-type1-readmore{
+                        position: absolute;
+                        bottom: 0px;
+                        display: flex;
+                        justify-content: space-between;
+                        width: 100%;
+                        padding-right: 10px !important;
+                        margin: 16px 0px;
+                        font-weight: bold;
+                        a{
+                            color: $primary-red;
+                            text-decoration: none;
+                            font-size: 12px;
+                            &:hover{
+                                text-decoration: none;
+                            }
+                        }
+                        span{
+                            font-size: 12px;
+                            color:$color666;
+                            opacity: 80%;
+                        }
+                    }
+                }
+            }
+           }
+           .mg-post-more{
+               display: block;
+               width: 100%;
+               .mg-post-more-img{
+                width: 100%;
+                border-radius: $radius;
+               }
+               .mg-post-details{
+                   .mg-post-title{
+                       font-size: 20px;
+                       color: $color666;
+                       font-weight: bold;
+                       margin-top: 25px;
+                       margin-bottom: 10px;
+                   }
+                   .mg-post-time-share{
+                       width: 100%;
+                       display: flex;
+                       justify-content: space-between;
+                       align-items: center;
+                       span{
+                        font-size: 12px;
+                        color: $color666;
+                        opacity: 80%;
+                       }
+                       a{
+
+                       }
+                   }
+                   .mg-post-content{
+                       margin-bottom: 100px;
+                       p{
+                           font-size: 16px;
+                           color: $color666;
+                           margin-top: 25px;
+                           margin-bottom: 0;
+                       }
+                   }
+                   .mg-post-footer{
+                       width: 100%;
+                       display: flex;
+                       justify-content: space-between;
+                       align-items: center;
+                       .backhome{
+                           font-size: 12px;
+                           font-weight: bold;
+                           color: $color666;
+                       }
+                       .nextpost{
+                           color: $primary-red;
+                           font-size: 12px;
+                           font-weight: bold;
+                       }
+                   }
+                   
+               }
+           }
+        }
+        .mg-post-related{
+            padding: 25px 20px;
+            background-color: #fff;
+            border-radius: $radius;
+            .related-header{
+                font-size: 16px;
+                color: $color666;
+                margin-right: 15px;
+                margin-bottom:25px ;
+                display: block;
+            }
+            .related-items{
+                width: 100%;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                align-items: center;
+                
+                    .related-item{
+                        width: 300px;
+                        height: auto;
+                        a{
+                            img{
+                                width: 100%;
+                                height: auto;
+                                max-height:160px ;
+                                border-radius: $radius; 
+                             }
+                             p{
+                                 font-size: 16px;
+                                 width: 100%;
+                                 overflow: hidden;
+                                 color:$color666;
+                                 font-weight: bold;
+                                 margin-top: 15px;
+                                 text-align: center;
+                             }
+                        }
+                    }
+            
+            }
+        }
+        .magazine-ad{
+            width: 100%;
+            display: block;
+
+            img{
+                width: 100%;
+                border-radius: $radius;
+                height: auto;
+                max-height: 152px;
+                margin-bottom: 15px;
+                box-shadow: 0 1px 6px 2px rgb(230,230,230);
+
+            }
+        }
+    }
+    
+
+}
