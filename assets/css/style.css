@@ -1130,15 +1130,20 @@ footer .copyright {
       padding: 0 10px; }
       #request-buy-1 .request-buy-1-form .form-step2 .building-measure {
         display: flex;
-        justify-content: space-around;
+        justify-content: flex-start;
         align-items: center;
-        margin-top: 20px; }
+        margin-top: 20px;
+        width: 100%; }
         #request-buy-1 .request-buy-1-form .form-step2 .building-measure span {
+          display: inline-block;
+          width: 50px;
           font-weight: bold;
-          color: #666; }
+          color: #666;
+          margin-left: 20px; }
           #request-buy-1 .request-buy-1-form .form-step2 .building-measure span span {
             display: block;
-            margin-top: 5px; }
+            margin-top: 5px;
+            margin-left: 0 !important; }
         #request-buy-1 .request-buy-1-form .form-step2 .building-measure input {
           transition: all ease .2s;
           -moz-appearance: none;
@@ -1152,9 +1157,57 @@ footer .copyright {
           color: #8b8b8b;
           margin: 15px 0;
           width: 110px;
-          font-size: 12px; }
+          font-size: 12px;
+          margin-left: 10px; }
           #request-buy-1 .request-buy-1-form .form-step2 .building-measure input:hover {
             border: 1px solid #ababab !important; }
+        #request-buy-1 .request-buy-1-form .form-step2 .building-measure .request-buy-big {
+          border-radius: 8px;
+          width: 230px;
+          height: 40px;
+          border: 1px solid #e7e7e7;
+          color: #8b8b8b;
+          position: relative;
+          outline: none;
+          font-family: 'IRsans';
+          font-size: 12px;
+          margin: 15px 0;
+          margin-left: 10px;
+          font-size: 12px;
+          transition: all ease .2s; }
+          #request-buy-1 .request-buy-1-form .form-step2 .building-measure .request-buy-big:hover {
+            border: #ababab solid 1px; }
+          #request-buy-1 .request-buy-1-form .form-step2 .building-measure .request-buy-big .downtoggle-svg {
+            position: absolute;
+            width: 25px;
+            height: 25px;
+            top: 8px;
+            left: 8px;
+            color: #8b8b8b; }
+          #request-buy-1 .request-buy-1-form .form-step2 .building-measure .request-buy-big select {
+            -webkit-user-select: none !important;
+            background-color: #fff;
+            cursor: pointer;
+            color: #8b8b8b;
+            -moz-appearance: none;
+            /* Firefox */
+            -webkit-appearance: none;
+            /* Safari and Chrome */
+            appearance: none;
+            border: none;
+            display: block;
+            width: 100%;
+            height: 100%;
+            padding-right: 10px;
+            position: relative;
+            outline: none;
+            border-radius: 8px;
+            font-size: 12px; }
+            #request-buy-1 .request-buy-1-form .form-step2 .building-measure .request-buy-big select option {
+              width: 100%;
+              height: 40px;
+              color: #666 !important;
+              font-size: 12px; }
       #request-buy-1 .request-buy-1-form .form-step2 textarea {
         transition: all ease .2s;
         -moz-appearance: none;
