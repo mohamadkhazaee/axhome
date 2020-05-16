@@ -3314,3 +3314,6 @@ body {
 
 .modal-header {
   border: none !important; }
+
+.disable-item:disabled {
+  background-color: #e9ecef !important; }

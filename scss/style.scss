@@ -22,8 +22,11 @@ body{
 }
 .modal-dialog{
     width: auto !important;
-    max-width: 1086px !important;
+    max-width: 1086px !important;  
 }
 .modal-header{
     border: none !important;
+}
+.disable-item:disabled{
+    background-color: #e9ecef !important;
 }
